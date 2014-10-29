@@ -27,11 +27,11 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `airlines` (
-  `airline_id` int(7) NOT NULL,
+  `airline_id` int(7) NOT NULL, -- просто id
   `name` text NOT NULL,
   `year` year(4) NOT NULL,
   `city_id` int(7) NOT NULL,
-  `adress` text NOT NULL,
+  `adress` text NOT NULL, -- aDDress
   `person_id` int(7) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
